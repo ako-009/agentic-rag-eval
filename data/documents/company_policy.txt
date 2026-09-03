@@ -1,0 +1,16 @@
+ACME Corporation - Employee Policy Document
+
+Refund Policy
+All purchases made through ACME store come with a 14-day return window. Refunds are processed within 5 business days of receiving the returned item. Items must be in original condition. Digital products are non-refundable once downloaded.
+
+Remote Work Policy
+Employees may work remotely up to 3 days per week with manager approval. Remote work requests must be submitted 48 hours in advance. Employees must be available during core hours of 10am to 3pm in their local timezone. VPN must be used when accessing company systems remotely.
+
+Leave Policy
+Full-time employees receive 20 days of paid leave per year. Leave must be approved by the direct manager at least 2 weeks in advance for periods longer than 3 days. Unused leave can be carried over up to a maximum of 10 days.
+
+Expense Policy
+Business expenses up to 500 USD can be approved by direct managers. Expenses above 500 USD require VP approval. All expenses must be submitted within 30 days of incurrence with receipts. Travel expenses require pre-approval before booking.
+
+Data Security Policy
+All employees must use strong passwords of at least 12 characters. Two-factor authentication is mandatory for all company accounts. Sensitive data must not be stored on personal devices. Security incidents must be reported to IT within 1 hour of discovery.

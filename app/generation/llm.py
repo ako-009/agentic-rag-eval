@@ -1,1 +1,17 @@
-ÿþ
+import os
+from dotenv import load_dotenv
+from langchain_google_genai import ChatGoogleGenerativeAI
+
+load_dotenv()
+
+def get_llm(temperature=0.1):
+    api_key = os.getenv("GEMINI_API_KEY")
+    if not api_key:
+        raise ValueError("GEMINI_API_KEY not found")
+    return ChatGoogleGenerativeAI(
+        model="gemini-3.6-flash",
+        google_api_key=api_key,
+        temperature=temperature,
+    )
+
+default_llm = get_llm()
