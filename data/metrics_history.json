@@ -1,0 +1,46 @@
+[
+  {
+    "timestamp": "2026-09-04T13:13:28.451233",
+    "metrics": {
+      "total_evaluated": 3,
+      "hallucination_rate": 0.0,
+      "hallucination_count": 0,
+      "avg_faithfulness": 1.0,
+      "min_faithfulness": 1.0,
+      "max_faithfulness": 1.0,
+      "avg_latency_ms": 37173.17398389181,
+      "p50_latency_ms": 38417.23394393921
+    },
+    "gate_result": {
+      "approved": false,
+      "failures": [
+        "P50 latency 38417ms exceeds 1500ms threshold"
+      ],
+      "hallucination_rate": 0.0,
+      "avg_faithfulness": 1.0,
+      "p50_latency_ms": 38417.23394393921
+    },
+    "num_questions": 3
+  },
+  {
+    "timestamp": "2026-09-04T13:23:17.866169",
+    "metrics": {
+      "total_evaluated": 3,
+      "hallucination_rate": 0.0,
+      "hallucination_count": 0,
+      "avg_faithfulness": 1.0,
+      "min_faithfulness": 1.0,
+      "max_faithfulness": 1.0,
+      "avg_latency_ms": 42503.33182017008,
+      "p50_latency_ms": 40093.36757659912
+    },
+    "gate_result": {
+      "approved": true,
+      "failures": [],
+      "hallucination_rate": 0.0,
+      "avg_faithfulness": 1.0,
+      "p50_latency_ms": 40093.36757659912
+    },
+    "num_questions": 3
+  }
+]

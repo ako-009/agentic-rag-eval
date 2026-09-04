@@ -1,0 +1,106 @@
+{
+  "version": "1.0",
+  "total": 20,
+  "pairs": [
+    {
+      "question": "What is the return window for purchases?",
+      "ground_truth": "All purchases come with a 14-day return window.",
+      "context": "refund policy"
+    },
+    {
+      "question": "How long does it take to process a refund?",
+      "ground_truth": "Refunds are processed within 5 business days of receiving the returned item.",
+      "context": "refund policy"
+    },
+    {
+      "question": "Are digital products refundable?",
+      "ground_truth": "Digital products are non-refundable once downloaded.",
+      "context": "refund policy"
+    },
+    {
+      "question": "What condition must items be in for a refund?",
+      "ground_truth": "Items must be in original condition to qualify for a refund.",
+      "context": "refund policy"
+    },
+    {
+      "question": "How many days can employees work remotely per week?",
+      "ground_truth": "Employees may work remotely up to 3 days per week with manager approval.",
+      "context": "remote work policy"
+    },
+    {
+      "question": "How far in advance must remote work be requested?",
+      "ground_truth": "Remote work requests must be submitted 48 hours in advance.",
+      "context": "remote work policy"
+    },
+    {
+      "question": "What are the core hours for remote workers?",
+      "ground_truth": "Employees must be available during core hours of 10am to 3pm in their local timezone.",
+      "context": "remote work policy"
+    },
+    {
+      "question": "What must be used when accessing company systems remotely?",
+      "ground_truth": "VPN must be used when accessing company systems remotely.",
+      "context": "remote work policy"
+    },
+    {
+      "question": "How many paid leave days do full-time employees get?",
+      "ground_truth": "Full-time employees receive 20 days of paid leave per year.",
+      "context": "leave policy"
+    },
+    {
+      "question": "How far in advance must long leave be approved?",
+      "ground_truth": "Leave must be approved at least 2 weeks in advance for periods longer than 3 days.",
+      "context": "leave policy"
+    },
+    {
+      "question": "How many unused leave days can be carried over?",
+      "ground_truth": "Unused leave can be carried over up to a maximum of 10 days.",
+      "context": "leave policy"
+    },
+    {
+      "question": "What is the expense limit for direct manager approval?",
+      "ground_truth": "Business expenses up to 500 USD can be approved by direct managers.",
+      "context": "expense policy"
+    },
+    {
+      "question": "Who approves expenses above 500 USD?",
+      "ground_truth": "Expenses above 500 USD require VP approval.",
+      "context": "expense policy"
+    },
+    {
+      "question": "Within how many days must expenses be submitted?",
+      "ground_truth": "All expenses must be submitted within 30 days of incurrence with receipts.",
+      "context": "expense policy"
+    },
+    {
+      "question": "Do travel expenses need pre-approval?",
+      "ground_truth": "Travel expenses require pre-approval before booking.",
+      "context": "expense policy"
+    },
+    {
+      "question": "What is the minimum password length required?",
+      "ground_truth": "All employees must use strong passwords of at least 12 characters.",
+      "context": "data security policy"
+    },
+    {
+      "question": "Is two-factor authentication mandatory?",
+      "ground_truth": "Two-factor authentication is mandatory for all company accounts.",
+      "context": "data security policy"
+    },
+    {
+      "question": "Can sensitive data be stored on personal devices?",
+      "ground_truth": "Sensitive data must not be stored on personal devices.",
+      "context": "data security policy"
+    },
+    {
+      "question": "How quickly must security incidents be reported?",
+      "ground_truth": "Security incidents must be reported to IT within 1 hour of discovery.",
+      "context": "data security policy"
+    },
+    {
+      "question": "What is the refund policy for ACME Corporation?",
+      "ground_truth": "ACME offers a 14-day return window with refunds processed within 5 business days. Items must be in original condition. Digital products are non-refundable once downloaded.",
+      "context": "refund policy"
+    }
+  ]
+}
