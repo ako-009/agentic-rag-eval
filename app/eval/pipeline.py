@@ -1,5 +1,7 @@
 import json
 import time
+
+
 from datetime import datetime
 from pathlib import Path
 
@@ -47,6 +49,7 @@ def run_eval_pipeline(
     for i, pair in enumerate(pairs):
         print(f"\n[{i+1}/{len(pairs)}] {pair['question'][:60]}...")
         try:
+            time.sleep(4)
             result = evaluate_single(pair["question"], pair["ground_truth"])
             results.append(result)
             print(f"  Faithfulness: {result['faithfulness_score']:.2f} | "

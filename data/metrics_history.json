@@ -42,5 +42,56 @@
       "p50_latency_ms": 40093.36757659912
     },
     "num_questions": 3
+  },
+  {
+    "timestamp": "2026-09-04T13:57:15.947466",
+    "metrics": {
+      "total_evaluated": 2,
+      "hallucination_rate": 0.0,
+      "hallucination_count": 0,
+      "avg_faithfulness": 1.0,
+      "min_faithfulness": 1.0,
+      "max_faithfulness": 1.0,
+      "avg_latency_ms": 36555.42254447937,
+      "p50_latency_ms": 48485.70990562439
+    },
+    "gate_result": {
+      "approved": true,
+      "failures": [],
+      "hallucination_rate": 0.0,
+      "avg_faithfulness": 1.0,
+      "p50_latency_ms": 48485.70990562439
+    },
+    "num_questions": 2
+  },
+  {
+    "timestamp": "2026-09-04T14:05:39.990059",
+    "metrics": {},
+    "gate_result": {
+      "approved": false,
+      "failures": [
+        "Hallucination rate 100.0% exceeds 5% threshold",
+        "Faithfulness 0.00 below 0.88 threshold"
+      ],
+      "hallucination_rate": 1.0,
+      "avg_faithfulness": 0.0,
+      "p50_latency_ms": 9999
+    },
+    "num_questions": 0
+  },
+  {
+    "timestamp": "2026-09-04T18:15:59.247135",
+    "metrics": {},
+    "gate_result": {
+      "approved": false,
+      "failures": [
+        "Hallucination rate 100.0% exceeds 5% threshold",
+        "Faithfulness 0.00 below 0.88 threshold"
+      ],
+      "hallucination_rate": 1.0,
+      "avg_faithfulness": 0.0,
+      "p50_latency_ms": 9999
+    },
+    "num_questions": 0
   }
 ]
