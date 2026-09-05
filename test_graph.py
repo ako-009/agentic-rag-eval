@@ -40,3 +40,6 @@ if __name__ == "__main__":
 
     # Test 3: Question outside knowledge base — should fallback gracefully
     run_query("What is the stock price of ACME Corporation?")
+
+    # Test 4: Live data question that should get real web answer
+    run_query("What is the current Bitcoin price today?")
