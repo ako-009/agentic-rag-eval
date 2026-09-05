@@ -61,6 +61,13 @@ def detect_hallucination(
 
     try:
         raw = response.content.strip()
+        # Remove thinking tags from Qwen models
+        if "<think>" in raw:
+            if "</think>" in raw:
+                raw = raw.split("</think>")[-1].strip()
+            else:
+                raw = raw.split("<think>")[0].strip()
+        # Remove markdown code blocks
         if "```" in raw:
             raw = raw.split("```")[1]
             if raw.startswith("json"):

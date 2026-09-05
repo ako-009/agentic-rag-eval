@@ -93,5 +93,101 @@
       "p50_latency_ms": 9999
     },
     "num_questions": 0
+  },
+  {
+    "timestamp": "2026-09-05T05:53:29.151841",
+    "metrics": {},
+    "gate_result": {
+      "approved": false,
+      "failures": [
+        "Hallucination rate 100.0% exceeds 5% threshold",
+        "Faithfulness 0.00 below 0.88 threshold"
+      ],
+      "hallucination_rate": 1.0,
+      "avg_faithfulness": 0.0,
+      "p50_latency_ms": 9999
+    },
+    "num_questions": 0
+  },
+  {
+    "timestamp": "2026-09-05T06:06:25.234186",
+    "metrics": {},
+    "gate_result": {
+      "approved": false,
+      "failures": [
+        "Hallucination rate 100.0% exceeds 5% threshold",
+        "Faithfulness 0.00 below 0.88 threshold"
+      ],
+      "hallucination_rate": 1.0,
+      "avg_faithfulness": 0.0,
+      "p50_latency_ms": 9999
+    },
+    "num_questions": 0
+  },
+  {
+    "timestamp": "2026-09-05T06:09:57.767302",
+    "metrics": {},
+    "gate_result": {
+      "approved": false,
+      "failures": [
+        "Hallucination rate 100.0% exceeds 5% threshold",
+        "Faithfulness 0.00 below 0.88 threshold"
+      ],
+      "hallucination_rate": 1.0,
+      "avg_faithfulness": 0.0,
+      "p50_latency_ms": 9999
+    },
+    "num_questions": 0
+  },
+  {
+    "timestamp": "2026-09-05T06:12:41.877528",
+    "metrics": {},
+    "gate_result": {
+      "approved": false,
+      "failures": [
+        "Hallucination rate 100.0% exceeds 5% threshold",
+        "Faithfulness 0.00 below 0.88 threshold"
+      ],
+      "hallucination_rate": 1.0,
+      "avg_faithfulness": 0.0,
+      "p50_latency_ms": 9999
+    },
+    "num_questions": 0
+  },
+  {
+    "timestamp": "2026-09-05T06:16:06.913345",
+    "metrics": {},
+    "gate_result": {
+      "approved": false,
+      "failures": [
+        "Hallucination rate 100.0% exceeds 5% threshold",
+        "Faithfulness 0.00 below 0.88 threshold"
+      ],
+      "hallucination_rate": 1.0,
+      "avg_faithfulness": 0.0,
+      "p50_latency_ms": 9999
+    },
+    "num_questions": 0
+  },
+  {
+    "timestamp": "2026-09-05T06:30:43.992771",
+    "metrics": {
+      "total_evaluated": 20,
+      "hallucination_rate": 0.0,
+      "hallucination_count": 0,
+      "avg_faithfulness": 1.0,
+      "min_faithfulness": 1.0,
+      "max_faithfulness": 1.0,
+      "avg_latency_ms": 1198.928141593933,
+      "p50_latency_ms": 1131.5829753875732
+    },
+    "gate_result": {
+      "approved": true,
+      "failures": [],
+      "hallucination_rate": 0.0,
+      "avg_faithfulness": 1.0,
+      "p50_latency_ms": 1131.5829753875732
+    },
+    "num_questions": 20
   }
 ]
